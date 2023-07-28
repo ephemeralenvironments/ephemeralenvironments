@@ -1,22 +1,22 @@
 +++
-date = "2021-08-13T00:00:00Z"
-title = "Ephemeral Environments And Testing"
+date = "2023-07-28T00:00:00Z"
+title = "Preview Environments And Testing"
 featuresslug = "testing"
 type = "feature"
 hero = "/images/headers/testing.png"
-metadescription = "Ephemeral environments save you time and money by providing an easy platform for running automated tests on your apps prior to release"
-pagetitle = "Ephemeral Environments And Testing"
+metadescription = "Preview environments save you time and money by providing an easy platform for running automated tests on your apps prior to release"
+pagetitle = "Preview Environments And Testing"
 ogimage = "/images/headers/testing.png"
 +++
 
 In application development, testing your app prior to release is critical. If production breaks, it costs you money.
-There are two main types of application tests: automated tests and human tests. You may also want to include load testing and chaos testing. Ephemeral environments save you time and money by providing an easy platform for running automated tests on your apps prior to release. Frequent and comprehensive testing makes sure your new features don't break anything or introduce regressions.
+There are two main types of application tests: automated tests and human tests. You may also want to include load testing and chaos testing. Preview environments save you time and money by providing an easy platform for running automated tests on your apps prior to release. Frequent and comprehensive testing makes sure your new features don't break anything or introduce regressions.
 
 ## Best Practices for Writing and Running Tests
 - in an ideal world, developers will run unit and end-to-end (e2e) tests on a new feature prior to a code review
 - automated testing ensures your features are bug-free by the time anyone sees them
 - testing each new feature individually keeps rollouts efficient and fast
-- with ephemeral environments, you can run tests automatically and instantly with every new commit to a repo
+- with preview environments, you can run tests automatically and instantly with every new commit to a repo
 - other developers can focus their time reviewing finalized iterations during code review, rather than debugging untested code
 - it is the responsibility of the feature's owner if any automated tests fail, as they will be the one fixing the code until all tests clear
 
@@ -30,9 +30,9 @@ There are two main types of application tests: automated tests and human tests. 
 
 
 ## Human Testing (QA and UAT)
-- ephemeral environments are an asset to QA teams, as they are set up to continuously run automated tests and test individual features in parallel
+- preview environments are an asset to QA teams, as they are set up to continuously run automated tests and test individual features in parallel
 - QA can find bugs early on in the process and find where a feature breaks
-- QA people are not blocked if a feature breaks any given staging environment, since features are isolated across multiple ephemeral environments
+- QA people are not blocked if a feature breaks any given staging environment, since features are isolated across multiple preview environments
 - often, the best way to find bugs is through internal stakeholders interacting with the branch
 - key stakeholders can now interact with new features and iterate on feedback before the features reach production
 

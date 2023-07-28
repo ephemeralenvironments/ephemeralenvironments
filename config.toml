@@ -1,20 +1,20 @@
 baseurl = "https://www.ephemeralenvironments.io"
 languageCode = "en-us"
-title = "EphemeralEnvironments.io"
-theme = "hugo-theme-ephemeralenvironments"
+title = "PreviewEphemeralEnvironments.io"
+theme = "hugo-theme-previewenvironments"
 
 [taxonomies]
   feature = "features"
 
 [params]
-  description = "EphemeralEnvironments.io"
-  ogimage = "/images/ephemeralenvironments.png"
+  description = "PreviewEnvironments.io"
+  ogimage = "/images/previewenvironments.png"
   copyright = "Shipyard Build, Inc."
-  edit_link = "https://github.com/ephemeralenvironments/ephemeralenvironments/edit/master/docs/"
+  edit_link = "https://github.com/previewenvironments/previewenvironments/edit/master/docs/"
   search = true
   contributor ="Shipyard"
   contributorurl = "https://www.shipyard.build"
-  image = "/images/ephemeral-logo.png"
+  image = "/images/preview-environments.png"
 
 
 
