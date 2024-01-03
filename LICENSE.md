@@ -1,10 +1,11 @@
-EphemeralEnvironments.io © 2024 by Shipyard Build, Inc. is licensed under CC BY-NC-SA 4.0
+EphemeralEnvironments.io © 2024 by Shipyard Build, Inc. is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ---
 
 ### Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 This is a human-readable summary of (and not a substitute for) the license. Disclaimer.
+
 You are free to:
   - Share — copy and redistribute the material in any medium or format
   - Adapt — remix, transform, and build upon the material
