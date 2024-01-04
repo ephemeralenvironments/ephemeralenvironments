@@ -13,7 +13,7 @@ This project is still evolving and changing, and we will update it frequently wi
 
 ## Contributing
 
-If you'd like to help improve EphemeralEnvironments.io, check out open [Issues](https://github.com/ephemeralenvironments/ephemeralenvironments/issues). We recommend reading the [Contributing Guidelines](https://github.com/ephemeralenvironments/ephemeralenvironments/blob/master/CONTRIBUTING.md) before opening an issue or PR.
+We always welcome content, code, and design contributions. If you'd like to help improve EphemeralEnvironments.io, check out open [Issues](https://github.com/ephemeralenvironments/ephemeralenvironments/issues). We recommend reading the [Contributing Guidelines](https://github.com/ephemeralenvironments/ephemeralenvironments/blob/master/CONTRIBUTING.md) before opening an issue or PR.
 
 ## Contact
 
@@ -21,4 +21,4 @@ Email natalie@shipyard.build for any questions about this project.
 
 ## License
 
-EphemeralEnvironments.io © 2024 by Shipyard Build, Inc. is licensed under CC BY-NC-SA 4.0
+EphemeralEnvironments.io © 2024 by Shipyard Build, Inc. is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
