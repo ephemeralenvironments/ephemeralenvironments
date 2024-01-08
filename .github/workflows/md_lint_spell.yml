@@ -1,0 +1,28 @@
+name: Lint and Spell Check
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+      - 'index.html'
+  pull_request:
+    paths:
+      - '**/*.md'
+      - 'index.html'
+
+jobs:
+  lint-and-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Lint Markdown files
+      uses: nosborn/github-action-markdown-cli@v3.3.0
+      with:
+        files: 'content/features/*.md'
+
+    - name: Check spelling
+      uses: codespell-project/actions-codespell@v2
+      with:
+        path: 'content/features'
