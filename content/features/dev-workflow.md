@@ -23,7 +23,7 @@ Ephemeral developer workspaces:
 - Source-control the dependencies for engineers' development workspaces
 - bonus: Dependencies maintain parity to the production/staging environments
 
-Development teams can use local tools ([docker](https://www.docker.com/why-docker), [tilt](https://tilt.dev), [vagrant](https://www.vagrantup.com/)) and even remote platforms ([GitHub Codespaces](https://github.com/features/codespaces), [GitPod](https://gitpod.io), [Coder](https://coder.com)) to manage ephemeral developer workspaces.
+Development teams can use local tools (<a href="https://www.docker.com/why-docker" target="_blank">docker</a>, <a href="https://tilt.dev" target="_blank">tilt</a>, <a href="https://www.vagrantup.com/" target="_blank">vagrant</a>) and even remote platforms (<a href="https://github.com/features/codespaces" target="_blank">Github Codespaces</a>, <a href="https://gitpod.io" target="_blank">GitPod</a>, <a href="https://coder.com" target="_blank">Coder</a>) to manage ephemeral developer workspaces.
 
 ## Committing, Pushing, and PRs
 
