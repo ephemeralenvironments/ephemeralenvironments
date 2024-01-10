@@ -1,15 +1,20 @@
 # EphemeralEnvironments.io
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">
+  <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License: CC BY-NC-SA 4.0">
+</a>
 
-[EphemeralEnvironments.io](https://ephemeralenvironments.io) is a resource for organizations who want to incorporate ephemeral environments into their dev workflows.
+
+<a href="https://ephemeralenvironments.io" target="_blank">EphemeralEnvironments.io</a> is a resource for organizations who want to incorporate ephemeral environments into their dev workflows.
 
 We've compiled a number of feature guides outlining best practices for setting up and using ephemeral environments, based on interviews with industry experts.
 
 ## Project Background
 
-EphemeralEnvironments.io is a project started by [Shipyard](https://www.shipyard.build/). At Shipyard, we help your organization create and manage ephemeral environments. With EphemeralEnvironments.io, we want to highlight the wide range of applications for ephemeral environments, and show how environments can help any organization simplify and streamline their dev workflow, regardless of size.
+EphemeralEnvironments.io is a project started by <a href="https://www.shipyard.build/" target="_blank">Shipyard</a>. At Shipyard, we help your organization create and manage ephemeral environments. With EphemeralEnvironments.io, we want to highlight the wide range of applications for ephemeral environments, and show how environments can help any organization simplify and streamline their dev workflow, regardless of size.
 
 This project is still evolving and changing, and we will update it frequently with new, informative content on best practices and feature guides.
+
+If you've found EphemeralEnvironments.io valuable, please support it by giving this repo a star.
 
 ## Contributing
 
@@ -21,4 +26,4 @@ Email natalie@shipyard.build for any questions about this project.
 
 ## License
 
-EphemeralEnvironments.io © 2024 by Shipyard Build, Inc. is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+EphemeralEnvironments.io © 2024 by Shipyard Build, Inc. is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">CC BY-NC-SA 4.0</a>

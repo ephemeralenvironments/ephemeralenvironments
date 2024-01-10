@@ -28,7 +28,7 @@ By integrating with a straightforward authentication system, you can add a secur
 
 ## Sanitize Your Data
 
-It is crucial to exclude any Personally Identifiable Information (PII) from your ephemeral environments. Keeping PII secure is the responsibility of the DevOps and SRE teams. For more information on PII, check out popular regulatory frameworks, such as [PCI DSS](https://www.pcisecuritystandards.org/) and [SOC 2](https://socreports.com/audit-overview/what-is-soc-2).
+It is crucial to exclude any Personally Identifiable Information (PII) from your ephemeral environments. Keeping PII secure is the responsibility of the DevOps and SRE teams. For more information on PII, check out popular regulatory frameworks, such as <a href="https://www.pcisecuritystandards.org/" target="_blank">PCI DSS</a> and <a href="https://socreports.com/audit-overview/what-is-soc-2" target="_blank">SOC 2</a>.
 Keeping your data sanitized means:
 - using a separate set of security keys from production
 - using environment variables and secrets, to ensure no critical systems break

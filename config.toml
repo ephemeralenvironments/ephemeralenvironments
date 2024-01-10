@@ -16,6 +16,12 @@ theme = "hugo-theme-ephemeralenvironments"
   contributorurl = "https://www.shipyard.build"
   image = "/images/ephemeral-logo.png"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      htmlSanitizer = true
+    [markup.goldmark.renderer]
+      unsafe = true
 
 
 [sitemap]
