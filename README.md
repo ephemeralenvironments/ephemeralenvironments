@@ -14,6 +14,8 @@ EphemeralEnvironments.io is a project started by <a href="https://www.shipyard.b
 
 This project is still evolving and changing, and we will update it frequently with new, informative content on best practices and feature guides.
 
+If you've found EphemeralEnvironments.io valuable, please support it by giving this repo a star.
+
 ## Contributing
 
 We always welcome content, code, and design contributions. If you'd like to help improve EphemeralEnvironments.io, check out open [Issues](https://github.com/ephemeralenvironments/ephemeralenvironments/issues). We recommend reading the [Contributing Guidelines](https://github.com/ephemeralenvironments/ephemeralenvironments/blob/master/CONTRIBUTING.md) before opening an issue or PR.
