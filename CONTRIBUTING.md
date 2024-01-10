@@ -6,7 +6,7 @@ As a growing community project, we always appreciate contributions. We're lookin
 2. **Code:** enhance the site with HTML/CSS/JS elements, create CI/CD pipelines, perform general maintenance
 3. **Design:** create new infographics, assets, improve existing formatting
 
-Whether this is your first time contributing or you're an OSS pro, we would love to have your help improving [EphemeralEnvironments.io](https://ephemeralenvironments.io)!
+Whether this is your first time contributing or you're an OSS pro, we would love to have your help improving <a href="https://ephemeralenvironments.io" target="_blank">EphemeralEnvironments.io</a>!
 
 ## How can I contribute?
 
@@ -34,4 +34,3 @@ A maintainer will request changes if necessary. For content contributions, don't
 For any questions regarding a particular issue or PR, tag [@nbeck415](https://github.com/nbeck415) in a comment.
 
 Email natalie@shipyard.build for any other questions.
-
