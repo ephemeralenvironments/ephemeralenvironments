@@ -29,6 +29,8 @@ Once you have ensured your branch works locally, open a PR back to this repo.
 
 A maintainer will request changes if necessary. For content contributions, don't forget to add your name to the **Content Contributors** section at the bottom of the `.md` file.
 
+If you've found EphemeralEnvironments.io valuable, please give us a star on GitHub -- one star goes a long way and helps us grow our project and community!
+
 ## Contact
 
 For any questions regarding a particular issue or PR, tag [@nbeck415](https://github.com/nbeck415) in a comment.
