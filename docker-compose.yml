@@ -7,17 +7,9 @@ services:
             dockerfile: ./Dockerfile
             context: .
             args:
-                NODE_VERSION: 16.14.0
                 GO_VERSION: 1.19
                 HUGO_VERSION: 0.114.1
-        develop:
-            watch:
-                - path: package.json
-                  action: rebuild
-                - path: .
-                  target: ./src
-                  action: sync
         volumes:
-            -   ./node_modules:src/node_modules
+            - .:./app
         ports:
             - 3000:3000

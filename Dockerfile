@@ -7,6 +7,8 @@ RUN apk add git
 # alternatively apt install hugo ? need sudo?
 RUN go install -v github.com/gohugoio/hugo@v${HUGO_VERSION}
 
+WORKDIR /app
+
 COPY . .
 
 ENTRYPOINT [ "hugo", "server" ]
