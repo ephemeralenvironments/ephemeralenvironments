@@ -2,7 +2,7 @@
 
 services:
     server:
-        container_name: hugo_server
+        container_name: EphemeralEnvironments
         build:
             dockerfile: ./Dockerfile
             context: .
@@ -10,63 +10,14 @@ services:
                 NODE_VERSION: 16.14.0
                 GO_VERSION: 1.19
                 HUGO_VERSION: 0.114.1
+        develop:
+            watch:
+                - path: package.json
+                  action: rebuild
+                - path: .
+                  target: ./src
+                  action: sync
         volumes:
-            - .:/src/stvbyr-tech
-            - /src/stvbyr-tech/node_modules
+            -   ./node_modules:src/node_modules
         ports:
-            - 1313:1313
-             # watch flag
-#     develop:
-#       watch:
-#         - path: web/package.json
-#           action: rebuild
-#         - path: web/yarn.lock
-#           action: rebuild
-#         - path: web/
-#           target: /app
-#           action: sync
-
-
-# # test code 
-# version: '3'
-# services:
-#   app:
-#     image: node:latest
-#     container_name: app_main
-#     restart: always
-#     command: sh -c "yarn install && yarn start"
-#     ports:
-#       - 8000:8000
-#     working_dir: /app
-#     volumes:
-#       - ./:/app
-#       # do we need env variables?
-#     environment:
-#       MYSQL_HOST: localhost
-#       MYSQL_USER: root
-#       MYSQL_PASSWORD: 
-#       MYSQL_DB: test
-#     # watch flag
-#     develop:
-#       watch:
-#         - path: web/package.json
-#           action: rebuild
-#         - path: web/yarn.lock
-#           action: rebuild
-#         - path: web/
-#           target: /app
-#           action: sync
-#   #  I am running other services?
-#   mongo:
-#     image: mongo
-#     container_name: app_mongo
-#     restart: always
-#     ports:
-#       - 27017:27017
-#     volumes:
-#       - ~/mongo:/data/db
-# # We can have volumes or watch look at pros and cons
-# volumes:
-#   mongodb:
-
-
+            - 3000:3000
