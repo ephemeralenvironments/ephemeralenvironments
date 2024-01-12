@@ -1,11 +1,10 @@
 ARG NODE_VERSION
 ARG GO_VERSION
+ARG HUGO_VERSION
 
 FROM golang:${GO_VERSION}-alpine as builder
 
 RUN apk add git 
-
-ARG HUGO_VERSION
 RUN go install -v github.com/gohugoio/hugo@v${HUGO_VERSION}
 
 FROM node:${NODE_VERSION}-alpine
@@ -19,11 +18,11 @@ RUN apk add git curl tar gzip bash
 
 USER node
 
-WORKDIR /src/stvbyr-tech
+WORKDIR /src
 
 COPY --chown=node . .
 
 RUN npm install
-RUN git config --global --add safe.directory /src/stvbyr-tech
+RUN git config --global --add safe.directory /src
 
 ENTRYPOINT [ "npm", "run", "dev"]
