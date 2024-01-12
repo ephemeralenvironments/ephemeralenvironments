@@ -23,7 +23,7 @@ There are two main types of application tests: automated tests and human tests. 
 ## CI/CD Pipelines
 - when a PR is opened, an environment should be generated for your CI/CD process to run automated tests against
 - CI/CD can help you pinpoint problems and bugs in your apps early on, and fix them before they get to production
-- environments will be passed between testing frameworks, eg. [Cypress](https://www.cypress.io/) or [Playwright](https://playwright.dev/)
+- environments will be passed between testing frameworks, eg. <a href="https://www.cypress.io/" target="_blank">Cypress</a> or <a href="https://playwright.dev/" target="_blank">Playwright</a>
 - tests will zero in on any bugs that may need repair
 - developers iterate until all automated tests clear
 
