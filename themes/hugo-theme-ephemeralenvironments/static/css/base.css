@@ -1027,7 +1027,8 @@ a.muted:active {
 #twtr-scroll {
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
+  scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -1074,7 +1075,6 @@ a.muted:active {
   }
   #twtr-content {
     width: 2000px !important;
-    overflow: auto;
   }
   .twtr-card {
     width: 360px;
