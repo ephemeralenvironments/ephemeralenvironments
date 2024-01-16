@@ -5,10 +5,12 @@ FROM golang:${GO_VERSION}-alpine
 
 RUN apk add git
 # alternatively apt install hugo ? need sudo?
-RUN go install -v github.com/gohugoio/hugo@v${HUGO_VERSION}
+RUN go install -v github.com/gohugoio/hugo@v0.114.1
 
 WORKDIR /app
 
 COPY . .
 
-ENTRYPOINT [ "hugo", "server" ]
+EXPOSE 1313
+
+CMD ["hugo", "server", "--bind", "0.0.0.0"]

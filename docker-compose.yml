@@ -3,12 +3,11 @@ services:
   server:
     container_name: EphemeralEnvironments
     build:
-      dockerfile: ./Dockerfile
       context: .
       args:
         GO_VERSION: 1.19
         HUGO_VERSION: 0.114.1
     volumes:
-      - .:./app
+      - .:/app
     ports:
       - 1313:1313
