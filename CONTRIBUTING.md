@@ -31,7 +31,28 @@ A maintainer will request changes if necessary. For content contributions, don't
 
 ## Setup Instructions
 
-This project is built using [Hugo](https://gohugo.io/), an open-source static site generator. To get the project up and running:
+This project is built using 
+- [Hugo](https://gohugo.io/), an open-source static site generator.
+- [Docker](https://www.docker.com/), a platform to generate containerized environments.
+
+Using Docker for the project is preferred to minimize conflicts arising from machine, OS, or dependency variations.
+
+### To get the project up and running Docker:
+1. Download and Install [Docker](https://docs.docker.com/get-docker/)
+2. Run `docker compose up`
+3. Visit the site at http://localhost:1313
+4. Stop the container with `Ctrl + C` or `docker compose down`
+
+    **NOTE:** This repo uses [Google's reCaptcha](https://developers.google.com/recaptcha/docs/faq#im-getting-an-error-localhost-is-not-in-the-list-of-supported-domains.-what-should-i-do). To view the recaptcha in development you can request your own key, list `127.0.0.1` as the domain and visit the site on the browser at `127.0.0.1:1313`. The datasite key can be edited at `themes/hugo-theme-ephemeralenvironments/layouts/partials/subscribe.html`
+
+5. Make your code changes! The app will reload whenever you save
+
+#### Helpful Docker Commands
+- `docker compose up` Starts fresh container, references dockerfile for image to build container
+- `docker compose down` Stops and removes containers(all data too)
+- `docker ps` List all running containers
+
+### To get the project up and running Hugo:
 
 1. Follow the [installation guide](https://gohugo.io/installation/)
 2. Go to the root of the projet
