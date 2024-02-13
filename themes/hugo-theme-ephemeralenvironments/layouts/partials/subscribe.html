@@ -2,66 +2,21 @@
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="/js/subscribe.js" defer></script>
 
-<script>
-  var email = document.getElementById("email");
-  var submit = document.getElementById("submit-btn");
-  var status = document.getElementById("submission-status");
-  var sText = document.getElementById("subscribe-text");
-  var grecaptcha = document.getElementById("recaptcha");
-
-  document
-    .getElementById("subscribe-form")
-    .addEventListener("submit", function (event) {
-      event.preventDefault();
-
-      let response;
-      try {
-        response = grecaptcha.getResponse(1);
-      } catch (error) {
-        response = grecaptcha.getResponse();
-      }
-      if (!response) {
-        alert("Please complete the reCAPTCHA.");
-        return;
-      }
-      var form = event.target;
-      email.style.display = "none";
-      submit.style.display = "none";
-
-      axios
-        .post("/", new FormData(form))
-        .then(function (response) {
-          if (response.status === 200) {
-            sText.textContent = "Thanks for subscribing!";
-            status.textContent = "We'll be in touch with you shortly.";
-            grecaptcha.style.display = "none";
-            form.reset();
-          } else {
-            sText.textContent = "Please try again later";
-          }
-        })
-        .catch(function (error) {
-          sText.textContent = "An error occurred. Please try again later.";
-        });
-    });
-</script>
-
 <div class="container">
   <div class="subscribe-ee">
     <form id="subscribe-form" method="post" data-netlify="true" name="subscribe" data-netlify-recaptcha="true">
       <div class="subscription-box">
-        <h3 id="thanks" hidden>Thank you for subscribing!</h3>
         <h3 id="submission-status" style="text-align: center; padding-top: 20px; padding-bottom: 10px">
           Subscribe to the EphemeralEnvironments.io newsletter
         </h3>
-        <div style="display: flex; flex-wrap: wrap; flex: 0; gap: 0.75rem;">
+        <fieldset style="display: flex; flex-wrap: wrap; flex: 0; gap: 0.75rem;">
           <input id="email" type="email" name="EMAIL" placeholder="Your email" required />
           <button id="submit-btn" class="read-more">
             Submit
           </button>
-          <div id="recaptcha" class="g-recaptcha" name="recaptcha" data-sitekey="SUBSTITUTE WITH YOUR SITE KEY"
-            style="margin-left: 2%;padding: 2px 10px;"></div>
-        </div>
+          <div id="recaptcha" class="g-recaptcha" name="recaptcha" data-sitekey="6LcxqnEpAAAAAM42eE1-IoD0_ZNEfnn5oh4RaSmf"
+          style="margin-left: 2%;padding: 2px 10px;"></div>
+        </fieldset>
       </div>
     </form>
   </div>
