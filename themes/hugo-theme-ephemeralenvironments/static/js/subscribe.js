@@ -8,12 +8,8 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
 
-    let response;
-    try {
-      response = grecaptcha.getResponse(1);
-    } catch (error) {
-      response = grecaptcha.getResponse();
-    }
+    let response = grecaptcha.getResponse();
+   
     if (!response) {
       alert("Please complete the reCAPTCHA.");
       return;
