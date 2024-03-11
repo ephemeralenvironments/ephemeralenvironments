@@ -43,3 +43,4 @@ There are two main types of application tests: automated tests and human tests. 
 
 {{< contributors username="nbeck415" >}}
 {{< contributors username="bueller" >}}
+{{< contributors username="creaturenex" >}}
