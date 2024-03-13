@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<div class="second-nav">
+  <div class="container" id="breadcrumbs">
+    <div id="tool-tip">
+      <span style="cursor:pointer;color:#878787">TEST - Github?</span>
+      <div class="tool-tip">
+        <ul>
+          <li><a href="https://github.com/ephemeralenvironments/ephemeralenvironments">Star</a></li>
+          <hr />
+          <li><a href="https://github.com/ephemeralenvironments/ephemeralenvironments/fork">Fork</a></li>
+          <hr />
+          <li><a href="https://github.com/ephemeralenvironments/ephemeralenvironments/subscription">Watch</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="article">
+  <h1>{{.Title}}</h1>
+  <p align="center"><img src="{{ .Params.hero }}" alt="{{ .Params.title }}" width="200" height="200" />TEST IMAGE</p>
+
+  {{ .Content }}
+  {{ partial "footer.html" . }}
