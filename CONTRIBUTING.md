@@ -6,7 +6,7 @@ As a growing community project, we always appreciate contributions. We're lookin
 2. **Code:** enhance the site with HTML/CSS/JS elements, create CI/CD pipelines, perform general maintenance
 3. **Design:** create new infographics, assets, improve existing formatting
 
-Whether this is your first time contributing or you're an OSS pro, we would love to have your help improving [EphemeralEnvironments.io](https://ephemeralenvironments.io)!
+Whether this is your first time contributing or you're an OSS pro, we would love to have your help improving <a href="https://ephemeralenvironments.io" target="_blank">EphemeralEnvironments.io</a>!
 
 ## How can I contribute?
 
@@ -37,9 +37,9 @@ This project is built using
 - [Hugo](https://gohugo.io/), an open-source static site generator
 - [Docker](https://www.docker.com/), a platform to generate containerized environments.
 
-Using Docker for the project is preferred to minimize conflicts arising from machine, OS, or dependency variations.
+Using Docker for developing this project can help minimize conflicts arising from machine, OS, or dependency variations.
 
-### To get the project up and running Docker
+### To get the project up and running with Docker:
 
 1. Download and Install [Docker](https://docs.docker.com/get-docker/)
 2. Run `docker compose up`
@@ -52,12 +52,12 @@ Using Docker for the project is preferred to minimize conflicts arising from mac
 
 #### Helpful Docker Commands
 
-- `docker compose up` Starts fresh container, references dockerfile for specs to build container
+- `docker compose up` Builds and runs project in a container, based on instructions in Compose file and references dockerfile for container image specs
 - `docker compose down` Stops and removes containers (all data too)
 - `docker compose stop` Stops but does not remove the container
 - `docker ps` List all running containers
 
-### To get the project up and running Hugo:
+### To get the project up and running with Hugo:
 
 1. Follow the [installation guide](https://gohugo.io/installation/)
 2. Go to the root of the project
