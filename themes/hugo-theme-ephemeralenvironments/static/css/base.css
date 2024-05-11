@@ -1027,7 +1027,7 @@ a.muted:active {
 #twtr-scroll {
   width: 100%;
   height: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
   scrollbar-width: thin;
   -webkit-overflow-scrolling: touch;
 }
