@@ -1,7 +1,26 @@
-<div class="contributors" style="display: flex; flex-direction: column; justify-content: center !important; align-items: center !important; border: solid 1px #252525; margin: 5px;">
-
+<!-- <div class="contributors" style="display: flex; flex-direction: column; justify-content: center !important; align-items: center !important; border: solid 1px #252525; margin: 5px;">
   <a href="https://github.com/{{ .Get "username" }}" target="_blank"><img alt="{{ .Get "username" }} on GitHub" class="avatar" height="100" src="https://github.com/{{ .Get "username" }}.png?size=100" width="100" style="border-radius: 50%;"></a>
-
   <p>{{ .Get "username" }}</p>
+</div> -->
 
-</div>
+ <div style="min-width: 325px; max-width: 350px; display: flex; flex-direction: row; align-items: center; column-gap: 8px ;border: solid #d4d4d4 1px; border-radius: 4px; height: 116px; margin-bottom: 8px;">
+  <div style="padding-left: 8px;">
+    <img src="https://github.com/{{ .Get "username" }}.png?size=100" style="border-radius: 4%;">
+  </div>
+  <div style="text-align: left; padding-right: 8px;">
+    <div>
+      <strong style="font-size: large;">@{{ .Get "username"}}</strong>
+      <br>
+      <text style="color: #888;">@{{ .Get "username"}}</text>
+      <div style="border-top: solid #d4d4d4 1px;">
+        <span><strong>180 </strong>Repos</span>
+        <span><strong>20K </strong>Followers</span>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<!-- <br>
+
+<div class="github-card" data-github="creaturenex" data-width="400" data-height="150" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script> -->
