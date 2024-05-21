@@ -1,6 +1,18 @@
 # https://gohugo.io/templates/data-templates/
-
+# example:
+#   creaturenex:
+#     name: "Oscar Romero"
+#     imageUrl: "https://github/creaturenex.png"
+#     repos: "211"
+#     followers: "41"
+# ---
 contributors:
   creaturenex:
     name: "Oscar Romero"
-    imageUrl: "https://github/creaturenex.png"
+    repos: "211"
+    followers: "41"
+  nbeck415:
+    name: ""
+  user:
+    name: ""
+

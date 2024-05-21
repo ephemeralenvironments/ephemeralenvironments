@@ -1,0 +1,31 @@
+{{ range $user, $data := . }}
+  <a href="https://github.com/{{$user }}">
+    <div style="min-width: 325px; max-width: 350px; display: flex; flex-direction: row; align-items: center; column-gap: 8px ;border: solid #d4d4d4 1px; border-radius: 4px; height: 116px; margin-bottom: 8px;">
+      <div style="padding-left: 8px;">
+        <img src="https://github.com/{{$user }}.png?size=100" style="border-radius: 4%;">
+      </div>
+      <div style="text-align: left; padding-right: 8px; width: 100%;">
+        <div>
+          {{ if .name }} 
+            <strong style="font-size: large;">@{{ .name }}</strong>
+          {{ end }}
+          <br>
+          <text style="color: #888;">@{{ $user }}</text>
+          <div style="border-top: solid #d4d4d4 1px;">
+          {{ if .repos }} 
+            <span><strong>{{ .repos }} </strong>Repos</span>
+          {{ end }}
+          {{ if .followers }}
+            <span><strong>{{ .followers }} </strong>Followers</span>
+          {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+ {{ end }}
+
+ <br>
+
+<div class="github-card" data-github="creaturenex" data-width="400" data-height="150" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

@@ -10,8 +10,3 @@ ogimage = "https://octodex.github.com/images/surftocat.png"
 +++
 
 **The team at [Shipyard](https://shipyard.build/) provides the guides for [Ephemeral Environments.io](https://ephemeralenvironments.io/). In the spirit of accountability and fostering communication, this information has been made open source for the community. These are are individuals who have contributed in improving Ephemeral Environment documentation.**
-
-<!-- need to create a flex container here ? -->
-{{< contributorsGH username="nbeck415" >}}
-{{< contributorsGH username="bueller" >}}
-{{< contributorsGH username="creaturenex" >}}
