@@ -19,12 +19,12 @@
 
 <div class="container" id="article">
   <h1>{{.Title}}</h1>
-  <p align="center"><img src="{{ .Params.hero }}" alt="{{ .Params.title }}" width="200" height="200" />TEST IMAGE</p>
+  <p align="center"><img src="{{ .Params.hero }}" alt="{{ .Params.title }}" width="200" height="200" /></p>
   {{ .Content }}
 
   <div style="display: flex; flex-wrap:wrap; justify-content: space-evenly ; align-items: center;">
   {{ range $.Site.Data.contributors}}
     {{ partial "contributorsGH.html" . }}
   {{ end }}
-
-{{ partial "footer.html" }}
+</div>
+{{ partial "footer.html" . }}
