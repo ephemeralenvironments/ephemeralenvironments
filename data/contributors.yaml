@@ -1,0 +1,13 @@
+# example:
+#   Github Username:
+#     name: "Actual Name"
+#     repos: "211"
+#     followers: "41"
+# ---
+contributors:
+  creaturenex:
+    name: "Oscar Romero"
+  nbeck415:
+    name: ""
+  bueller:
+    name: ""
