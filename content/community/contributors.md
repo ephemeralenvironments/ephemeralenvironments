@@ -2,7 +2,7 @@
 date = "2021-08-13T00:00:00Z"
 title = "Ephemeral Environments Contributors"
 featuresslug = "contributors"
-type = "about"
+type = "community"
 hero = "https://octodex.github.com/images/surftocat.png"
 metadescription = "Contributors to Ephemeral Environments"
 pagetitle = "Ephemeral Environments Across Contributors"

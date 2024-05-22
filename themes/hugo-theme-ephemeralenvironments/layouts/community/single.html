@@ -3,7 +3,7 @@
 <div class="second-nav">
   <div class="container" id="breadcrumbs">
     <div id="tool-tip">
-      <span style="cursor:pointer;color:#878787">TEST - Github?</span>
+      <span style="cursor:pointer;color:#878787">Community</span>
       <div class="tool-tip">
         <ul>
           <li><a href="https://github.com/ephemeralenvironments/ephemeralenvironments">Star</a></li>
@@ -22,6 +22,7 @@
   <p align="center"><img src="{{ .Params.hero }}" alt="{{ .Params.title }}" width="200" height="200" />TEST IMAGE</p>
   {{ .Content }}
 
+  <div style="display: flex; flex-wrap:wrap; justify-content: space-evenly ; align-items: center;">
   {{ range $.Site.Data.contributors}}
     {{ partial "contributorsGH.html" . }}
   {{ end }}
