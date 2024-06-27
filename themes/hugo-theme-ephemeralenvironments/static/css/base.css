@@ -1179,16 +1179,16 @@ button {
 }
 
 .banner {
-  background-color: #ffbc42;
+  background-color: #3735ea;
   padding: 6px;
   text-align: center;
   font-weight: 550;
   font-size: 1.625rem;
   line-height: 1.75rem;
-  color: #323232 !important;
+  color: white !important;
   position: relative;
   &:hover{
-    background-color: #ffdda2;
+    background-color: #5857ee;
   }
 }
 
