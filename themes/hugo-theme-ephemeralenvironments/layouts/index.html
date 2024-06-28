@@ -33,6 +33,8 @@
 </head>
 
 <body>
+    {{ partial "banner.html" . }}
+
     <div class="container" id="inner-nav">
 
         <div id="menu"><a href="#">Menu</a></div>
@@ -82,8 +84,8 @@
 
     <div class="masthead-wrapper">
         <div class="container">
-              <h2 style="text-align: center;">What Is An Ephemeral Environment?</h2>
-              <p style="text-align: left;">An ephemeral environment is a short-lived, encapsulated deployment of an application. Ephemeral environments provide robust, on-demand platforms for running tests, previewing features, and collaborating asynchronously across teams.</p>
+              <h2 style="text-align: center;">What is an ephemeral environment?</h2>
+              <p style="text-align: left;">An ephemeral environment is a short-lived, isolated deployment of an application. Ephemeral environments provide robust, on-demand platforms for running tests, previewing features, and collaborating asynchronously across teams.</p>
             </div>
         </div>
     </div>
@@ -236,52 +238,71 @@
     </div>
 
   </div>
+  <div class="background-wrapper" style="background-color: #fbfbfb; border-top: 1px solid #d6d6d6;">
+    <div class="container" id="intro">
+        <div class="row">
+            <div class="four columns" style="text-align: center">
+                <a href="impact/dora-metrics"><img alt="Ephemeral environments and DORA" src="/images/article-icons/why.png" style="max-width: 170px;"></a>
+            </div>
+            <div class="eight columns">
+                <a href="impact/dora-metrics"><h2>Ephemeral environments and DORA</h2></a>
+                <p>How do ephemeral environments impact each of the four key DORA Metrics? Learn how and why ephemeral environments affect lead time, deployment frequency, change fail percentage, and failed deployment recovery time.</p>
+                <p style="text-align: left; padding-top: 10px;">
+                    <span class="inline">
+                        <a class="read-more" style="padding: 10px 30px;" href="impact/dora-metrics">Read More</a> &nbsp; &nbsp;
+                        <a class="read-more" style="padding: 10px 30px;" target="_blank" href="https://dora.dev">About DORA</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
 
 
-                    <div class="background-wrapper">
-                        <div class="container" id="intro">
-                          <script type="application/ld+json">
-                          {
-                            "@context": "https://schema.org",
-                            "@type": "Organization",
-                            "name": "EphemeralEnvironments.io",
-                            "url": "http://www.ephemeralenvironments.io",
-                            "parentOrganization": [
-                              {
-                                "@type": "Organization",
-                                "name": "Shipyard",
-                                "url": "https://shipyard.build"
-                              }
-                            ],
-                            "logo": "https://www.ephemeralenvironments.com/images/ephemeral-logo.png"
-                          }
-                          </script>
+    <div class="background-wrapper">
+        <div class="container" id="intro">
+            <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "EphemeralEnvironments.io",
+            "url": "http://www.ephemeralenvironments.io",
+            "parentOrganization": [
+                {
+                "@type": "Organization",
+                "name": "Shipyard",
+                "url": "https://shipyard.build"
+                }
+            ],
+            "logo": "https://www.ephemeralenvironments.com/images/ephemeral-logo.png"
+            }
+            </script>
 
-                            <a name="background"></a>
-                            <h2 align="center" class="section-header">About EphemeralEnvironments.io</h2>
-                            <p style="text-align: left;">This resource is for developers, product, and QA teams who build cloud products. This information is sourced from interviews with DevOps practitioners and members from large organizations who use ephemeral environments to optimize their workflow.</p>
+            <a name="background"></a>
+            <h2 align="center" class="section-header">About EphemeralEnvironments.io</h2>
+            <p style="text-align: left;">This resource is for developers, product, and QA teams who build cloud products. This information is sourced from interviews with DevOps practitioners and members from large organizations who use ephemeral environments to optimize their workflow.</p>
 
-                            <div class="row" style="margin-top:30px; margin-bottom: 0px">
-                                <div class="one-half column">
-                                    <h3 id="who-its-for" class="section-header sub">Who it’s for</h3>
-                                    <p>EphemeralEnvironments.io is for organizations who want to begin using ephemeral environments, or who are at the early stages of implementation.</p>
-                                </div>
-                                <div class="one-half column">
-                                    <h3 id="what-it-is" class="section-header sub">What it is</h3>
-                                    <p>We offer a series of guides to assist your team with implementing ephemeral environments from the ground up, and any steps or features that may be involved.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <h3 id="who-its-from" class="section-header sub">Who we are</h3>
-                                <p>We're engineers at <a href="https://www.shipyard.build">Shipyard</a>, a company that helps you and your team use ephemeral environments. We build our product entirely using ephemeral environments and are big advocates for the productivity and convenience delivered by these automated staging environments.
+            <div class="row" style="margin-top:30px; margin-bottom: 0px">
+                <div class="one-half column">
+                    <h3 id="who-its-for" class="section-header sub">Who it’s for</h3>
+                    <p>EphemeralEnvironments.io is for organizations who want to begin using ephemeral environments, or who are at the early stages of implementation.</p>
+                </div>
+                <div class="one-half column">
+                    <h3 id="what-it-is" class="section-header sub">What it is</h3>
+                    <p>We offer a series of guides to assist your team with implementing ephemeral environments from the ground up, and any steps or features that may be involved.</p>
+                </div>
+            </div>
+            <div class="row">
+                <h3 id="who-its-from" class="section-header sub">Who we are</h3>
+                <p>We're engineers at <a href="https://www.shipyard.build">Shipyard</a>, a company that helps you and your team use ephemeral environments. We build our product entirely using ephemeral environments and are big advocates for the productivity and convenience delivered by these automated staging environments.
 
-                                </p>
-                            </div>
+                </p>
+            </div>
 
-                        </div>
-                    </div>
-                    {{ partial "subscribe.html" . }}
-                    {{ partial "footer.html" .}}
+        </div>
+    </div>
+    {{ partial "subscribe.html" . }}
+    {{ partial "footer.html" .}}
 
 </body>
 

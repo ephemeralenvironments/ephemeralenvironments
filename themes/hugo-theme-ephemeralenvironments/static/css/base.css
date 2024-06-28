@@ -1177,3 +1177,23 @@ button {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
+
+.banner {
+  background-color: #3735ea;
+  padding: 6px;
+  text-align: center;
+  font-weight: 550;
+  font-size: 1.625rem;
+  line-height: 1.75rem;
+  color: white !important;
+  position: relative;
+  &:hover{
+    background-color: #5857ee;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
