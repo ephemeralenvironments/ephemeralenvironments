@@ -13,7 +13,7 @@ Ephemeral environments make agentic development workflows more efficient, as the
 
 ## The agentic dev/test loop
 
-Typical agentic workflows happen at the local level. For example, a developer using an agent like Claude Code or Gemini CLI may have an inner dev loop that looks like this: 
+Typical agentic workflows happen at the local level. For example, a developer using an agent like <a href="https://github.com/anthropics/claude-code" target="_blank">Claude Code</a>, <a href="https://github.com/google-gemini/gemini-cli" target="_blank">Gemini CLI</a>, or <a href="https://devin.ai/" target="_blank">Devin</a> may have an inner dev loop that looks like this: 
 
 - a developer prompts an agent to code a feature
 - the developer runs the app locally, feeds any logs or findings back to the agent
