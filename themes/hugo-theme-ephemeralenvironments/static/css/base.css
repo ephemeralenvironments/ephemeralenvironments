@@ -1,5 +1,5 @@
 /* Base Styles */
-@import url("https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700&display=swap");
+@import url("fonts.css");
 
 * {
   list-style: none;
