@@ -15,7 +15,7 @@
 - Media Queries
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700&display=swap');
+@import url('fonts.css');
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -199,7 +199,7 @@ input[type="button"] {
   color: #555;
   text-align: center;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 35px;
   letter-spacing: .1rem;
   text-decoration: none;
