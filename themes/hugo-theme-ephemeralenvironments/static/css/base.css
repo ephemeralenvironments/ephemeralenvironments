@@ -482,6 +482,13 @@ span.why {
   width: 150px;
   height: 150px;
 }
+
+span.agnt {
+  background: url("../images/article-icons/cli.png");
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}
 /* Top Article */
 
 #top-article img {
